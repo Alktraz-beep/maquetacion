@@ -1,0 +1,10 @@
+<div class="row justify-content-center " >
+    <div class="col-8 " >
+        <div class="row"  >
+            <div class="col-4" *ngFor="let item of textos;let index=index;">
+                <app-widget [index]="index" [text]="item"></app-widget>
+            </div>
+        </div>
+        
+    </div>
+</div>
